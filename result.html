@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/teste.css" />
+  <title>Resultado da Pesquisa</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- barra de navegação -->
+
+  <!-- <nav class="navbar lg-text-bg-primary">
+    <div class="container-fluid p-3 mb-2 result text-dark d-flex align-items-center">
+
+      <figure class="logo col mx-auto text-center">
+        <img id="logo2" class="rounded float-start img-fluid" src="img/logo.png" alt="Blin">
+      </figure>
+
+      <form class="" role="search">
+        <div class="buscador2">
+          <center>
+            <div class="buscador2 input-group d-flex justify-content-center h-100">
+              <input type="text" id="txtBusca" placeholder="     Pesquise no Blin ou digite um URL" />
+              <button><a href="result.html">
+                  <div class="w3-text-white">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </a>
+              </button>
+          </center>
+        </div>
+    </div>
+
+    </form>
+    </div>
+  </nav> -->
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand img-fluid href="#">
+        <img src="img/logo.png" class="navbar-logo" alt="blin">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <div class="input-group search-container">
+          <span class="input-group-text input-mic">
+            <i class="fa fa-microphone"></i>
+          </span>
+          <input type="text" class="form-control input-search" placeholder="Pesquise no Blin ou digite um URL">
+          <button class="btn btn-primary btn-search" onclick="window.location.href = 'result.html'" type="button"><i
+              class="fa fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- resultado da pesquisa -->
+
+  <div class="result">
+    <div class="pes1 w-75">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              <strong>O que não pode dar para o gato comer?</strong>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Sete alimentos que seu gato não deve comer:</strong><br>
+              1 - Leite, queijo e outros produtos lácteos. <br>
+              2 - Chocolate. <br>
+              3 - Ovos, carne ou peixe cru. <br>
+              4 - Ração para cachorro. <br>
+              5 - Pão e fermento. <br>
+              6 - Atum. <br>
+              7 - Cebola
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>O que atrai os gatos?</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Os gatos adoram flores, especialmente as rosas, as margaridas e os lírios. Porém, você deve saber que eles
+              podem cheirá-las, mas não comê-las. Algumas flores são tóxicas e, se ingeridas, podem causar muitos
+              problemas de saúde, ou inclusive matá-los, em muitos casos.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <strong>Quais são os benefícios de ter um gato?</strong>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Os gatos contribuem com muitos benefícios para as pessoas que vivem com eles. Existem estudos que afirmam
+              que eles têm a capacidade de nos fazer relaxar e de reduzir o estresse. Se você abraça ou dorme com o seu
+              animal de estimação, sua pressão arterial se reduzirá.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="search-result-box card-box">
+
+                <div class="tab-content">
+                  <div class="tab-pane active" id="home">
+                    <div class="row">
+                      <div class="col-mb-6">
+                        <div class="search-item">
+                          <h4 class="mb-1"><a class="titcor"
+                              href="https://www.hospvetsantamarinha.com/blog/60-curiosidades-gatos/">60 curiosidades
+                              sobre gatos que vai querer conhecer</a></h4>
+                          <div class="font-13 text-success mb-3">https://www.hospvetsantamarinha.com/...</div>
+                          <p class="mb-0 text-muted">Os <strong>gatos </strong> são os animais de estimação mais
+                            populares de todo o mundo. Para que os conheça melhor, partilhamos consigo 60 curiosidades
+                            sobre estes felinos.</p>
+                        </div>
+
+
+                        <div class="search-item">
+                          <h4 class="mb-1"><a class="titcor" href="https://www.petlove.com.br/gatos">Gato: Ração,
+                              Brinquedos e muito mais para seu Pet</a></h4>
+                          <div class="font-13 text-success mb-3">https://www.petlove.com.br</div>
+                          <p class="mb-0 text-muted">Compre Ração, Brinquedos e muito mais para seu Gato com os melhores
+                            preços e condições de pagamento. Parcele em até 3x sem juros. Confira!</p>
+                        </div>
+
+
+                        <div class="search-item">
+                          <h4 class="mb-1"><a class="titcor" href="https://www.patasdacasa.com.br/tag/gato">Gato - Patas
+                              da Casa</a></h4>
+                          <div class="font-13 text-success mb-3">https://www.patasdacasa.com.br</div>
+                          <p class="mb-0 text-muted">Gatos são independentes, metódicos e têm a personalidade forte, mas
+                            se engana quem acha que são menos carinhosos e amorosos por causa disso. Pelo contrário: ...
+                          </p>
+                        </div>
+
+
+                        <div class="search-item">
+                          <h4 class="mb-1"><a class="titcor" href="https://www.cobasi.com.br/c/gatos">Gato: tudo para o
+                              seu pet com os melhores preços - Cobasi</a></h4>
+                          <div class="font-13 text-success mb-3">https://www.cobasi.com.br</div>
+                          <p class="mb-0 text-muted">Encontre todos os produtos para o seu gato no pet shop online da
+                            Cobasi. Compre rações, brinquedos e tudo o que quiser para agradar o seu pet.</p>
+                        </div>
+
+
+                        <div class="search-item">
+                          <h4 class="mb-1"><a class="titcor"
+                              href="https://www.hospvetsantamarinha.com/blog/60-curiosidades-gatos/">60 curiosidades
+                              sobre gatos que vai querer conhecer</a></h4>
+                          <div class="font-13 text-success mb-3">https://www.hospvetsantamarinha.com/...</div>
+                          <p class="mb-0 text-muted">Os <strong>gatos </strong> são os animais de estimação mais
+                            populares de todo o mundo. Para que os conheça melhor, partilhamos consigo 60 curiosidades
+                            sobre estes felinos.</p>
+                        </div>
+
+
+                        <div class="search-item">
+                          <h4 class="mb-1"><a class="titcor" href="https://www.petlove.com.br/gatos">Gato: Ração,
+                              Brinquedos e muito mais para seu Pet</a></h4>
+                          <div class="font-13 text-success mb-3">https://www.petlove.com.br</div>
+                          <p class="mb-0 text-muted">Compre Ração, Brinquedos e muito mais para seu Gato com os melhores
+                            preços e condições de pagamento. Parcele em até 3x sem juros. Confira!</p>
+                        </div>
+
+
+                        <div class="search-item">
+                          <h4 class="mb-1"><a class="titcor" href="https://www.patasdacasa.com.br/tag/gato">Gato - Patas
+                              da Casa</a></h4>
+                          <div class="font-13 text-success mb-3">https://www.patasdacasa.com.br</div>
+                          <p class="mb-0 text-muted">Gatos são independentes, metódicos e têm a personalidade forte, mas
+                            se engana quem acha que são menos carinhosos e amorosos por causa disso. Pelo contrário: ...
+                          </p>
+                        </div>
+
+
+                        <footer class="d-flex justify-content-center">
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="result.html">1</a></li>
+                              <li class="page-item"><a class="page-link" href="result.html">2</a></li>
+                              <li class="page-item"><a class="page-link" href="result.html">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+
+                        </footer>
+
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- container -->
+      </div>
+
+    </div>
+
+    <div class="pes2 w-25 border d-none d-lg-block d-print-block">
+      <center>
+        <div class="card border-2 border-opacity-50 " style="width: 18rem;">
+          <img src="img/gato.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">
+              <strong> Gato</strong>
+              <br>
+              Animal <br>
+              O gato ou gato doméstico é um mamífero carnívoro da família dos felídeos, muito popular como animal de
+              estimação. Ocupando o topo da cadeia alimentar, é predador natural de diversos animais, como roedores,
+              pássaros, lagartixas e alguns insetos
+              <br> <strong>Expectativa de Vida:</strong> 12 – 18 anos (Domesticado) <br>
+              <strong>Peso:</strong> 4 – 5 kg (Adulto, doméstico) <br>
+              <strong>Nome científico: </strong> Felis catus <br>
+              <strong>Período de Gestação:</strong> 65 dias <br>
+              <strong>Classificação superior:</strong> Felis <br>
+              <strong>Horas de Sono:</strong> 12 – 16 horas <br>
+            </p>
+          </div>
+        </div>
+    </div>
+    </center>
+  </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</html>

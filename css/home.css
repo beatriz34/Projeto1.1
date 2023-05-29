@@ -1,0 +1,121 @@
+html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #8AB5B2;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .image-wrapper {
+            text-align: center;
+        }
+
+        .image-wrapper img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        .search-wrapper {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .search-wrapper input[type="text"] {
+            width: 200px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search-wrapper button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .buscador2 {
+            background-color: #FFFFFF;
+            width: 40%;
+            height: 22pt;
+            border-radius: 20pt;
+            border: none;
+        }
+
+        .input-search {
+            border-left: none;
+        }
+
+        .btn-search {
+            border-end-end-radius: 50%;
+            border-start-end-radius: 50%;
+            background-color: #577C7A;
+            border: none;
+        }
+
+        .btn-search:hover {
+            background-color: #005953;
+        }
+
+        .btn-login {
+            background-color: #005953;
+            border-radius: var(--bs-border-radius-pill) !important;
+            right: 10px;
+        }
+
+        .btn-login:hover{ 
+            background-color: #577c7a;
+        }
+
+        .search-container {
+            max-width: 600px !important;
+        }
+
+        .barra-baixo {
+            background-color: #577c7a;
+            height: 90px;
+        }
+
+        .square {
+            padding: 0 !important;
+            height: 100px;
+            width: 163px;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .square img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width: 994px) {
+            .home-items {
+                display: none !important;
+            }
+        }
+
+        .input-mic {
+            background-color: white;
+            border-right: none !important;
+            border-top-left-radius: var(--bs-border-radius-pill) !important;
+            border-bottom-left-radius: var(--bs-border-radius-pill) !important;
+        }
+
+        .input-mic > i {
+            color: rgb(100, 100, 100);
+            font-size:20px
+        }
